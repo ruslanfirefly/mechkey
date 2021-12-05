@@ -34,7 +34,7 @@ jobs:
       - name: create backup
         uses: fifsky/ssh-action@0.0.6
         with:
-          command: ${{secters.SSH_COMMAND}}
+          command: ${{secrets.SSH_COMMAND}}
           host: ${{ secrets.REMOTE_HOST }}
           user: ${{secrets.REMOTE_USER}}
           key: ${{secrets.SSH_PRIVATE_KEY}}
