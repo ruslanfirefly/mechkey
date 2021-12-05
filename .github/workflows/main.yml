@@ -31,7 +31,13 @@ jobs:
           hugo-version: "0.89.4"
       - name: Build Site
         run: hugo --minify
-
+      - name: create backup
+        uses: fifsky/ssh-action@0.0.6
+        with:
+          command: ${{secters.SSH_COMMAND}}
+          host: ${{ secrets.REMOTE_HOST }}
+          user: ${{secrets.REMOTE_USER}}
+          key: ${{secrets.SSH_PRIVATE_KEY}}
       - name: SSH Deploy
         uses: easingthemes/ssh-deploy@v2.2.11
         with:
