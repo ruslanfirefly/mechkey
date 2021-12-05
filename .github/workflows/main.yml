@@ -44,6 +44,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
           REMOTE_HOST: ${{secrets.REMOTE_HOST}}
           REMOTE_USER: ${{secrets.REMOTE_USER}}
+          ARGS: "-avz --delete"
           SOURCE: "public/"
           TARGET: "/var/www/mechkeys.ru/html"
 
