@@ -4,5 +4,6 @@
   "url-into-selection",
   "consistent-attachments-and-links",
   "unique-attachments",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-local-images"
 ]

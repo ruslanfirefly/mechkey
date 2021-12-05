@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "posts/test-article/index.md",
+            "file": "posts/kakie-byvayut-pereklyuchateli-v-klaviature/index.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229
+    "width": 283
   },
   "right": {
     "id": "b66f594226e032b8",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/test-article/index.md",
+                "file": "posts/kakie-byvayut-pereklyuchateli-v-klaviature/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -78,8 +78,17 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "dbf25f6de13914df",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -88,14 +97,15 @@
   },
   "active": "3cd6d337aafd4d23",
   "lastOpenFiles": [
+    "posts/kakie-byvayut-pereklyuchateli-v-klaviature/index.md",
+    "posts/kakie-byvayut-pereklyuchateli-v-klaviature/files/f6b5a8823d4b60d04ebf12c250ebf030.jpg",
+    "posts/kakie-byvayut-pereklyuchateli-v-klaviature/files/dries-augustyns-WzKPT0IuUrU-unsplash.jpeg",
+    "posts/kakie-byvayut-pereklyuchateli-v-klaviature/files/a1b10b18eefec267e49d1f0460c3d05d.png",
+    "posts/kakie-byvayut-pereklyuchateli-v-klaviature/files/list.jpg",
+    "gde-pokupat.md",
+    "o-proecte.md",
     "posts/test-article/index.md",
-    "posts/test-article/f6b5a8823d4b60d04ebf12c250ebf030.jpeg",
-    "posts/test-article/8e998b6fda6026c7cd0ed268f29c147a.png",
-    "posts/test-article/ad3e1d7944ae1b76912e32f50f6d8b58.png",
-    "posts/test-article/attachments/mx-cherry.jpeg",
-    "posts/test-article/mx-cherry.jpeg",
-    "search/_index.md",
-    "post/test-article/index.md",
-    "post/test-article/mx-cherry.jpeg"
+    "posts/test-article/files/8e998b6fda6026c7cd0ed268f29c147a.png",
+    "about.md"
   ]
 }

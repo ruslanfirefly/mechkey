@@ -5,6 +5,16 @@ theme = "liva-hugo"
 summaryLength = "10"
 paginate = 3
 
+[markup.goldmark]
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
@@ -43,23 +53,23 @@ URL = "plugins/search/search.js"
 
 # main menu
 [[menu.main]]
-name = "About"
-URL = "about"
+name = "О проекте"
+URL = "o-proekte"
 weight = 1
 
 [[menu.main]]
-name = "Post"
-URL = "blog"
+name = "Где покупать?"
+URL = "gde-pokupat"
 weight = 2
 # footer menu
 [[menu.footer]]
-name = "About"
-URL = "about"
+name = "О проекте"
+URL = "o-proekte"
 weight = 1
 
 [[menu.footer]]
-name = "Post"
-URL = "blog"
+name = "Где покупать?"
+URL = "gde-pokupat"
 weight = 2
 
 
