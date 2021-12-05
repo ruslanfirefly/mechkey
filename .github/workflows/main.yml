@@ -30,9 +30,9 @@ jobs:
         with:
           hugo-version: "0.89.4"
       - name: Build Site
-        run: hugo --minify && ls -la ./public
+        run: hugo --minify
       - name: SSH Deploy
-        uses: up9cloud/action-rsync@master
+        uses: up9cloud/action-rsync@v1.3
         env:
           KEY: ${{secrets.SSH_PRIVATE_KEY}}
           HOST: ${{secrets.REMOTE_HOST}}
