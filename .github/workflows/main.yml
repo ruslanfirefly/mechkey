@@ -32,7 +32,7 @@ jobs:
       - name: Build Site
         run: hugo --minify
       - name: create backup
-        uses: fifsky/ssh-action@0.0.6
+        uses: fifsky/ssh-action@master
         with:
           command: ${{secrets.SSH_COMMAND}}
           host: ${{ secrets.REMOTE_HOST }}
