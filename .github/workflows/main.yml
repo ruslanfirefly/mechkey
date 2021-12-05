@@ -37,7 +37,7 @@ jobs:
           KEY: ${{secrets.SSH_PRIVATE_KEY}}
           HOST: ${{secrets.REMOTE_HOST}}
           USER: ${{secrets.REMOTE_USER}}
-          ARGS: "-avzr --delete ---exclude=.htaccess"
+          ARGS: "-avzr --delete --exclude=.htaccess"
           SOURCE: "public/"
           TARGET: "/var/www/mechkeys.ru/html"
 
