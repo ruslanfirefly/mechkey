@@ -31,22 +31,15 @@ jobs:
           hugo-version: "0.89.4"
       - name: Build Site
         run: hugo --minify
-      - name: create backup
-        uses: fifsky/ssh-action@master
-        with:
-          command: ${{secrets.SSH_COMMAND}}
-          host: ${{ secrets.REMOTE_HOST }}
-          user: ${{secrets.REMOTE_USER}}
-          key: ${{secrets.SSH_PRIVATE_KEY}}
       - name: SSH Deploy
-        uses: easingthemes/ssh-deploy@v2.2.11
+        uses: up9cloud/action-rsync@master
         with:
-          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
-          REMOTE_HOST: ${{secrets.REMOTE_HOST}}
-          REMOTE_USER: ${{secrets.REMOTE_USER}}
-          ARGS: "-avzr --delete"
+          KEY: ${{secrets.SSH_PRIVATE_KEY}}
+          HOST: ${{secrets.REMOTE_HOST}}
+          USER: ${{secrets.REMOTE_USER}}
+          ARGS: "-avzr --delete ---exclude=.htaccess"
           SOURCE: "public/"
           TARGET: "/var/www/mechkeys.ru/html"
-          EXCLUDE: "/fuck/"
+
 
 
