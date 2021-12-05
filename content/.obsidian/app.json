@@ -1,0 +1,11 @@
+{
+  "useMarkdownLinks": true,
+  "showLineNumber": false,
+  "attachmentFolderPath": "./files",
+  "spellcheck": false,
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "showFrontmatter": true,
+  "lineWrap": true
+}

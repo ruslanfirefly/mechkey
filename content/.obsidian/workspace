@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "2bb3b391aaebebce",
+    "type": "split",
+    "children": [
+      {
+        "id": "3cd6d337aafd4d23",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "posts/test-article/index.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ff7d17507a63282d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7270dfe746c456cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9dd5a7d0fc773d6c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fbcbb97b3431c740",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 229
+  },
+  "right": {
+    "id": "b66f594226e032b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4c1ef30309c5651",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "642b91658a8ebe32",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/test-article/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3cd6d337aafd4d23",
+  "lastOpenFiles": [
+    "posts/test-article/index.md",
+    "posts/test-article/f6b5a8823d4b60d04ebf12c250ebf030.jpeg",
+    "posts/test-article/8e998b6fda6026c7cd0ed268f29c147a.png",
+    "posts/test-article/ad3e1d7944ae1b76912e32f50f6d8b58.png",
+    "posts/test-article/attachments/mx-cherry.jpeg",
+    "posts/test-article/mx-cherry.jpeg",
+    "search/_index.md",
+    "post/test-article/index.md",
+    "post/test-article/mx-cherry.jpeg"
+  ]
+}
