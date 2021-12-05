@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/binario" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hugo-theme-bootstrap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/liva-hugo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/materialize-bp-hugo-theme" vcs="Git" />
+  </component>
+</project>
