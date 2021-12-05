@@ -33,7 +33,7 @@ jobs:
         run: hugo --minify
       - name: SSH Deploy
         uses: up9cloud/action-rsync@master
-        with:
+        env:
           KEY: ${{secrets.SSH_PRIVATE_KEY}}
           HOST: ${{secrets.REMOTE_HOST}}
           USER: ${{secrets.REMOTE_USER}}
