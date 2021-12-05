@@ -1,13 +1,13 @@
 ---
 title: "Какая клавиатура лучше: механическая или мембранная?"
-date: 2021-12-03T17:47:53+03:00
+date: '2021-12-03T17:47:53+03:00'
 draft: false
-type: post
+type: 'post'
 tags:
-- Клавиатура
+- 'Клавиатура'
 categories:
-- Клавиатура
-image: /posts/kakaya-klaviatura-luchshe-mekhanicheskaya-ili-membrannaya/files/69b491b502aa15613e32325ed60b70f0.jpeg
+- 'Клавиатура'
+image: '/posts/kakaya-klaviatura-luchshe-mekhanicheskaya-ili-membrannaya/files/69b491b502aa15613e32325ed60b70f0.jpeg'
 ---
 
 

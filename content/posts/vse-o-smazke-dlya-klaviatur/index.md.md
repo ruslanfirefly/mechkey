@@ -1,15 +1,15 @@
 ---
-title: Все о смазке для клавиатур
-date: 2021-12-03T17:47:53+03:00
+title: 'Все о смазке для клавиатур'
+date: '2021-12-03T17:47:53+03:00'
 draft: false
-type: post
+type: 'post'
 tags:
-- Уход
-- Клавиатура
+- 'Уход'
+- 'Клавиатура'
 categories:
-- Уход
-- Клавиатура
-image: /posts/vse-o-smazke-dlya-klaviatur/files/a1e4fa267d3b03d8070237568259c0a9.jpg
+- 'Уход'
+- 'Клавиатура'
+image: '/posts/vse-o-smazke-dlya-klaviatur/files/a1e4fa267d3b03d8070237568259c0a9.jpg'
 ---
 
 ## **ЗАЧЕМ НУЖНА СМАЗКА?**
