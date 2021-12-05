@@ -1,4 +1,4 @@
-baseURL = 'https//mechkeys.ru/'
+baseURL = 'https://mechkeys.ru/'
 languageCode = 'ru-RU'
 title = 'MechKeys'
 theme = "liva-hugo"
