@@ -3,7 +3,7 @@ languageCode = 'ru-RU'
 title = 'MechKeys'
 theme = "liva-hugo"
 summaryLength = "10"
-paginate = 3
+paginate = 10
 
 [markup.goldmark]
 [markup.goldmark.extensions]
