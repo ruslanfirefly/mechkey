@@ -1,3 +1,3 @@
 # MechKeys
 
-Public site https://mechkey.ru
+Public site https://mechkeys.ru
