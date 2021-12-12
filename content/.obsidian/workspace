@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "posts/chto-takoe-qmk/index.md",
+            "file": "posts/mekhanicheskaya-klaviatura-anne-pro-2-by-obinslab/index.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/chto-takoe-qmk/index.md",
+                "file": "posts/mekhanicheskaya-klaviatura-anne-pro-2-by-obinslab/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +97,15 @@
   },
   "active": "3cd6d337aafd4d23",
   "lastOpenFiles": [
+    "posts/mekhanicheskaya-klaviatura-anne-pro-2-by-obinslab/index.md",
+    "posts/mekhanicheskaya-klaviatura-anne-pro-2-by-obinslab/files/f063631e97e063280f2753b8d5b5fc30.jpeg",
+    "posts/mekhanicheskaya-klaviatura-anne-pro-2-by-obinslab/files/Pasted image 20211212223112.png",
+    "posts/vse-o-smazke-dlya-klaviatur/index.md",
     "posts/chto-takoe-qmk/index.md",
     "posts/chto-takoe-qmk/files/c476bb4f0a168604ca6f6b1d3445ac43.jpeg",
     "posts/kakie-est-profili-klaviatur/index.md",
     "search/_index.md",
     "o-proekte.md",
-    "gde-pokupat.md",
-    "posts/kakie-byvayut-pereklyuchateli-v-klaviature/index.md",
-    "posts/razmery-i-formaty-klaviatur/index.md.md",
-    "posts/vse-o-smazke-dlya-klaviatur/index.md.md",
-    "posts/kakaya-klaviatura-luchshe-mekhanicheskaya-ili-membrannaya/index.md.md"
+    "gde-pokupat.md"
   ]
 }
