@@ -85,10 +85,10 @@ author = "MechKeys"
 googleAnalitycsID = "295715263"
 # Contact Information
 #mobile = "0124857985320"
-#email = "demo@email.com"
+email = "mk@mechkeys.ru"
 #location = "Dhaka, Bangladedsh"
 # copyright
-copyright = "|&copy; 2021  Все права защищены.|"
+copyright = "|&copy; 2021  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)|"
 
 # Preloader
 [params.preloader]
