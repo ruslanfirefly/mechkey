@@ -15,5 +15,14 @@
       ],
       "key": "R"
     }
+  ],
+  "obsidian-languagetool-plugin:ltcheck-text": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "R"
+    }
   ]
 }

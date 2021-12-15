@@ -10,6 +10,7 @@ categories:
 - Клавиатура
 - Кейкапы
 image: "/posts/kakie-est-profili-klaviatur/files/7e2b4245782d551ddb035f40b0f547a1.jpeg"
+description: "Какие есть профили клавиатур. Наборы кейкапов."
 ---
 
 
@@ -170,7 +171,7 @@ image: "/posts/kakie-est-profili-klaviatur/files/7e2b4245782d551ddb035f40b0f547a
 
 ### APPLEMAG
 
-Супернизкий профиль. 
+Супер низкий профиль. 
 
   
 ![Apple Mag профиль вид сбоку](files/b0d98f33f7dd00b257893ffd5395f3a5.jpg)

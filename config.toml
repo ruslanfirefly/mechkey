@@ -79,7 +79,7 @@ weight = 2
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "про что-то "
+description = "Проект mechkeys.ru это проект про механические клавиатуры и все что связанно с этим."
 author = "MechKeys"
 # Google Analitycs
 googleAnalitycsID = "295715263"
