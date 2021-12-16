@@ -245,7 +245,7 @@ void matrix_init_user(void) {
 
 ## TMK
 
-Проект [TMK](https://github.com/tmk/tmk_keyboard) послужил основой для QMK. В настоящее время практически нет причин, по которым стоило бы использовать TMK вместо QMK. Исключение — [некоторые конвертеры](https://github.com/tmk/tmk_keyboard/tree/master/converter), не все из которых портированы в QMK.
+Проект [TMK](https://github.com/tmk/tmk_keyboard) послужил основой для QMK. В настоящее время практически нет причин, по которым стоило бы использовать TMK вместо QMK. Исключение — [некоторые конвертеры](https://github.com/tmk/tmk_keyboard/tree/master/converter), не все из которых портировано в QMK.
 
 
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "posts/chto-takoe-qmk/index.md",
+            "file": "posts/opto-mekhanicheskaya-klaviatura-gk61-s-aliexpress/index.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "интерисуется",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283
+    "width": 236
   },
   "right": {
     "id": "b66f594226e032b8",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/chto-takoe-qmk/index.md",
+                "file": "posts/opto-mekhanicheskaya-klaviatura-gk61-s-aliexpress/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +97,15 @@
   },
   "active": "3cd6d337aafd4d23",
   "lastOpenFiles": [
+    "posts/opto-mekhanicheskaya-klaviatura-gk61-s-aliexpress/index.md",
+    "posts/mekhanicheskaya-klaviatura-anne-pro-2-by-obinslab/index.md",
+    "gde-pokupat.md",
     "posts/chto-takoe-qmk/index.md",
     "posts/kakaya-klaviatura-luchshe-mekhanicheskaya-ili-membrannaya/index.md",
     "posts/kakie-byvayut-pereklyuchateli-v-klaviature/index.md",
     "posts/kakie-est-profili-klaviatur/index.md",
-    "posts/mekhanicheskaya-klaviatura-anne-pro-2-by-obinslab/index.md",
-    "posts/opto-mekhanicheskaya-klaviatura-gk61-s-aliexpress/index.md",
     "posts/razmery-i-formaty-klaviatur/index.md",
     "o-proekte.md",
-    "gde-pokupat.md",
     "posts/vse-o-smazke-dlya-klaviatur/index.md"
   ]
 }
