@@ -1,4 +1,6 @@
 User-agent: *
 Disallow: /search/*
+Disallow: /tags/*
+Disallow: /categories/*
 Allow: /
 Sitemap: http://mechkeys.ru/sitemap.xml
