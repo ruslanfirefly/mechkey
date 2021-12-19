@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "posts/opto-mekhanicheskaya-klaviatura-gk61-s-aliexpress/index.md",
+            "file": "posts/mekhanicheskaya-klaviatura-anne-pro-2-by-obinslab/index.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/opto-mekhanicheskaya-klaviatura-gk61-s-aliexpress/index.md",
+                "file": "posts/mekhanicheskaya-klaviatura-anne-pro-2-by-obinslab/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +97,15 @@
   },
   "active": "3cd6d337aafd4d23",
   "lastOpenFiles": [
-    "posts/opto-mekhanicheskaya-klaviatura-gk61-s-aliexpress/index.md",
     "posts/mekhanicheskaya-klaviatura-anne-pro-2-by-obinslab/index.md",
-    "gde-pokupat.md",
-    "posts/chto-takoe-qmk/index.md",
-    "posts/kakaya-klaviatura-luchshe-mekhanicheskaya-ili-membrannaya/index.md",
-    "posts/kakie-byvayut-pereklyuchateli-v-klaviature/index.md",
-    "posts/kakie-est-profili-klaviatur/index.md",
+    "posts/chto-takoe-split-klaviaturi/index.md",
+    "posts/chto-takoe-split-klaviaturi/files/400f5347997e4bbf03015d96cd17d1bc.png",
+    "posts/chto-takoe-split-klaviaturi/files/dccbabdb290de8171d9eb93d15192c03.png",
+    "posts/chto-takoe-split-klaviaturi/files/08cba2424eae7fc3b475cf360f832383.png",
+    "posts/chto-takoe-split-klaviaturi/files/400f5347997e4bbf03015d96cd17d1bc.png",
+    "posts/chto-takoe-split-klaviaturi/files/a36aa840ae84f77089387eea0e66918a.png",
+    "posts/chto-takoe-split-klaviaturi/files/d4f402088745856eccbcd92694f16138.png",
     "posts/razmery-i-formaty-klaviatur/index.md",
-    "o-proekte.md",
-    "posts/vse-o-smazke-dlya-klaviatur/index.md"
+    "posts/opto-mekhanicheskaya-klaviatura-gk61-s-aliexpress/index.md"
   ]
 }
