@@ -1,9 +1,10 @@
 baseURL = 'https://mechkeys.ru/'
-languageCode = 'ru-RU'
+languageCode = 'ru-ru'
 title = 'MechKeys'
 theme = "liva-hugo"
 summaryLength = "10"
-paginate = 10
+paginate = 6
+
 
 [markup.goldmark]
 [markup.goldmark.extensions]

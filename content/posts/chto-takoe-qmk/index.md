@@ -6,7 +6,7 @@ type: post
 tags:
 - QMK
 categories:
-- QMK
+- Разное
 image: "posts/chto-takoe-qmk/files/c476bb4f0a168604ca6f6b1d3445ac43.jpeg"
 description: "Что такое проект QMK? Как пользоваться QMK? "
 ---

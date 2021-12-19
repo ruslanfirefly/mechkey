@@ -7,8 +7,7 @@ tags:
 - Клавиатура
 - Кейкапы
 categories:
-- Клавиатура
-- Кейкапы
+- Разное
 image: "/posts/kakie-est-profili-klaviatur/files/7e2b4245782d551ddb035f40b0f547a1.jpeg"
 description: "Какие есть профили клавиатур. Наборы кейкапов."
 ---

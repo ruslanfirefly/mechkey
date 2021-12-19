@@ -6,7 +6,7 @@ type: 'post'
 tags:
 - 'Клавиатура'
 categories:
-- 'Клавиатура'
+- Разное
 image: '/posts/kakaya-klaviatura-luchshe-mekhanicheskaya-ili-membrannaya/files/69b491b502aa15613e32325ed60b70f0.jpeg'
 description: "Что лучше мембранная или мезаническая клавиатура? Сравнение."
 ---

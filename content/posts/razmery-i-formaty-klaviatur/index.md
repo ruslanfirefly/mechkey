@@ -6,7 +6,7 @@ type: 'post'
 tags:
 - 'Клавиатура'
 categories:
-- 'Клавиатура'
+- Разное
 image: '/posts/razmery-i-formaty-klaviatur/files/75df9afb21ea01e4d130a4ada6d97585.jpeg'
 description: "Какие бывают размеры механических клавиатур? Какие бывают форматы механических клавиатур?"
 ---

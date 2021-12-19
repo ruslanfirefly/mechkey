@@ -7,8 +7,7 @@ tags:
 - 'Переключатели'
 - 'Клавиатура'
 categories:
-- 'Переключатели'
-- 'Клавиатура'
+- Разное
 image: '/posts/kakie-byvayut-pereklyuchateli-v-klaviature/files/9580dce95e8a26269c7dd8fdc3450faf.jpeg'
 description: "Какие бывают переключатели в механической клавиатуре? Виды переключателей."
 ---

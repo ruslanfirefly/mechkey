@@ -8,6 +8,11 @@
         <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
           class="text-primary">{{ . | title | humanize }}</a>
         {{ end }}
+        <br>
+        {{ range .Params.Tags }}
+        <a href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}"
+           class="text-primary">#{{ . | title | humanize }}</a>
+        {{ end }}
         <h2>{{ .Title | markdownify }}</h2>
 <!--        <div class="mb-3 post-meta">-->
 <!--          <span>{{if .Params.Author}}{{ .Params.Author }}{{else}}{{.Site.Params.Author}}{{end}}</span>-->
@@ -22,10 +27,17 @@
         <div class="content mb-5">
           {{ .Content }}
         </div>
-
+        <br>
+        {{ range .Params.Tags }}
+        <a href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}"
+           class="text-primary">#{{ . | title | humanize }}</a>
+        {{ end }}
         <!-- comments -->
         {{ template "_internal/disqus.html" . }}
       </div>
+      <!-- sidebar -->
+      {{ partial "sidebar.html" . }}
+      <!-- /sidebar -->
     </div>
   </div>
 </section>
