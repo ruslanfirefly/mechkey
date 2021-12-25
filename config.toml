@@ -59,8 +59,8 @@ URL = "o-proekte"
 weight = 1
 
 [[menu.main]]
-name = "Где покупать?"
-URL = "gde-pokupat"
+name = "Где купить?"
+URL = "gde-kupit-mekhanicheskuyu-klaviaturu"
 weight = 2
 # footer menu
 [[menu.footer]]
@@ -69,8 +69,8 @@ URL = "o-proekte"
 weight = 1
 
 [[menu.footer]]
-name = "Где покупать?"
-URL = "gde-pokupat"
+name = "Где купить?"
+URL = "gde-kupit-mekhanicheskuyu-klaviaturu"
 weight = 2
 
 
