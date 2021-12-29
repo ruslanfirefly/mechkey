@@ -4,7 +4,7 @@ title = 'MechKeys'
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
-
+disqusShortname = "mechkeys-ru"
 
 
 [markup.goldmark]
