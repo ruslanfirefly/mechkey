@@ -3,6 +3,7 @@ title: "Какие есть профили клавиатур?"
 date: 2021-12-07T22:44:06+03:00
 draft: false
 type: post
+noindex: false
 tags:
 - Клавиатура
 - Кейкапы

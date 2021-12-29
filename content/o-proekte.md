@@ -2,6 +2,7 @@
 title: 'О проекте'
 date: '2021-12-03T17:50:59+03:00'
 draft: false
+noindex: false
 description: "Проект mechkeys.ru это проект про механические клавиатуры и все что связанно с этим."
 ---
 

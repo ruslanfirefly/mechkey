@@ -3,6 +3,7 @@ title: "Опто-Механическая клавиатура GK61 c Aliexpress
 date: 2021-12-14T18:30:30+03:00
 draft: false
 type: post
+noindex: false
 tags:
 - 'Обзор'
 - 'Клавиатура'

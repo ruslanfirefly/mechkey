@@ -2,6 +2,7 @@
 title: "Что такое сплит-клавиатуры?"
 date: 2021-12-19T19:56:17+03:00
 draft: false
+noindex: false
 type: featured
 tags:
 - 'Обзор'

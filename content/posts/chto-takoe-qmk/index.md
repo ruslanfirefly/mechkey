@@ -3,6 +3,7 @@ title: "Что такое QMK?"
 date: 2021-12-07T23:15:37+03:00
 draft: false
 type: post
+noindex: false
 tags:
 - QMK
 categories:

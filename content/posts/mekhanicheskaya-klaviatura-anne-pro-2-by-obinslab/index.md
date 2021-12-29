@@ -3,6 +3,7 @@ title: "Механическая клавиатура Anne Pro 2 by Obinslab"
 date: 2021-12-12T20:42:25+03:00
 draft: false
 type: post
+noindex: false
 tags:
 - 'Обзор'
 - 'Клавиатура'

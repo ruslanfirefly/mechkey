@@ -3,6 +3,7 @@ title: 'Все о смазке для клавиатур'
 date: '2021-12-03T17:47:53+03:00'
 draft: false
 type: 'post'
+noindex: false
 tags:
 - 'Уход'
 - 'Клавиатура'

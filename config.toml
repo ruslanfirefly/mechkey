@@ -6,6 +6,7 @@ summaryLength = "10"
 paginate = 6
 
 
+
 [markup.goldmark]
 [markup.goldmark.extensions]
 definitionList = true
