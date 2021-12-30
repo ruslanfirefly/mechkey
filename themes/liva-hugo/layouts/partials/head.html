@@ -7,11 +7,17 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
+
   {{ if ne .Params.noindex false}}
+  {{if eq .IsHome false}}
   <meta name="robots" content="noindex, follow" />
   {{else}}
   <meta name="robots" content="index, follow"/>
+  {{end}}
+  {{else}}
+  <meta name="robots" content="index, follow"/>
   {{ end }}
+
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .URL | absURL }} ">
