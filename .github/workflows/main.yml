@@ -33,15 +33,13 @@ jobs:
       - name: Build Site
         run: hugo --minify
       - name: Deploy to Selectel 
-        run: rsync -zarvh ./public/* ${{secrets.SELECTEL_USER}}:${{secrets.SELECTEL_PASS}}@sftp.selcdn.ru:mechkeysru
-#         uses: zurb/sftp-upload-action@1.3
-#         with:
-#           host: sftp.selcdn.ru
-#           username: ${{secrets.SELECTEL_USER}}
-#           password: ${{secrets.SELECTEL_PASS}}
-#           remoteDir: mechkeysru
-#           localDir: ./public
-#           forceUpload: true
+        uses: AbleLincoln/push-to-sftp@v1.2
+        with:
+          host: sftp.selcdn.ru
+          username: ${{secrets.SELECTEL_USER}}
+          password: ${{secrets.SELECTEL_PASS}}
+          targetDir: mechkeysru
+          sourceDir: ./public
 
 
 
