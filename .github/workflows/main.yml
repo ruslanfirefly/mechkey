@@ -33,13 +33,16 @@ jobs:
       - name: Build Site
         run: hugo --minify
       - name: Deploy to Selectel 
-        uses: sebastianpopp/ftp-action@v2.0.0
+        uses: jakejarvis/s3-sync-action@v0.5.1
         with:
-          host: ftp.selcdn.ru
-          user: ${{secrets.SELECTEL_USER}}
-          password: ${{secrets.SELECTEL_PASS}}
-          remoteDir: mechkeysru
-          localDir: public
+          args: --delete
+        env:
+          AWS_S3_ENDPOINT: https://s3.storage.selcloud.ru
+          AWS_ACCESS_KEY_ID: ${{secrets.SELECTEL_USER}}
+          AWS_SECRET_ACCESS_KEY: ${{secrets.SELECTEL_PASS}}
+          AWS_S3_BUCKET: mechkeysru
+          AWS_REGION: ru-1
+          SOURCE_DIR: public
           
 
 
