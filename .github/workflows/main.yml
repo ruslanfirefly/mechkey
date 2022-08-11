@@ -39,7 +39,7 @@ jobs:
           username: ${{secrets.SELECTEL_USER}}
           password: ${{secrets.SELECTEL_PASS}}
           targetDir: mechkeysru
-          sourceDir: ./public
+          sourceDir: public
 
 
 
