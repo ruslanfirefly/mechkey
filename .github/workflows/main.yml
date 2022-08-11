@@ -37,7 +37,7 @@ jobs:
         with:
           host: sftp.selcdn.ru
           username: ${{secrets.SELECTEL_USER}}
-          password: ${secrets.SELECTEL_PASS}}
+          password: ${{secrets.SELECTEL_PASS}}
           remoteDir: mechkeysru
           localDir: ./public
           forceUpload: true
