@@ -33,16 +33,10 @@ jobs:
       - name: Build Site
         run: hugo --minify
       - name: Deploy to Selectel 
-        uses: sand4rt/ftp-deployer@v1.4
+        uses: Atyn/simple-sftp-action@0.0.2
         with:
-          sftp: true
-          host: sftp.selcdn.ru
-          port: 22
-          username: ${{secrets.SELECTEL_USER}}
-          password: ${{secrets.SELECTEL_PASS}}
-          remote_folder: mechkeysru
-          local_folder: ./public
-          cleanup: true
+          url: sftp://${{secrets.SELECTEL_USER}}:${{secrets.SELECTEL_PASS}}@sftp.selcdn.ru/mechkeysru
+          localdir: ./public
 
 
 
