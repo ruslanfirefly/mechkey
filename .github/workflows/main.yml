@@ -33,15 +33,15 @@ jobs:
       - name: Build Site
         run: hugo --minify
       - name: Deploy to Selectel 
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        uses: sand4rt/ftp-deployer@v1.4
         with:
-          server: sftp.selcdn.ru
+          host: sftp.selcdn.ru
+          port: 22
           username: ${{secrets.SELECTEL_USER}}
           password: ${{secrets.SELECTEL_PASS}}
-          remote_path: mechkeysru
-          local_path: ./public
-          sftp_only: true
-          delete_remote_files: true
+          remote_folder: mechkeysru
+          local_folder: ./public
+          cleanup: true
 
 
 
