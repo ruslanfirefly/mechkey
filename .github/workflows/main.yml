@@ -33,7 +33,7 @@ jobs:
       - name: Build Site
         run: hugo --minify
       - name: Deploy to Selectel 
-        run: scp -r ./public/* ${{secrets.SELECTEL_USER}}:${{secrets.SELECTEL_PASS}}@sftp.selcdn.ru:/mechkeysru
+        run: scp -r ./public/* ${{secrets.SELECTEL_USER}}:${{secrets.SELECTEL_PASS}}@sftp.selcdn.ru:mechkeysru
 #         uses: zurb/sftp-upload-action@1.3
 #         with:
 #           host: sftp.selcdn.ru
