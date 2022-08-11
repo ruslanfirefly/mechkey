@@ -33,10 +33,10 @@ jobs:
       - name: Build Site
         run: hugo --minify
       - name: Deploy to Selectel 
-        uses: wangyucode/sftp-upload-action@v1.3.3
+        uses: sebastianpopp/ftp-action@v2.0.0
         with:
           host: sftp.selcdn.ru
-          username: ${{secrets.SELECTEL_USER}}
+          user: ${{secrets.SELECTEL_USER}}
           password: ${{secrets.SELECTEL_PASS}}
           remoteDir: mechkeysru
           localDir: ./public
