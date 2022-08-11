@@ -41,6 +41,7 @@ jobs:
           remote-password: ${{secrets.SELECTEL_PASS}}
           remote-path: mechkeysru
           local-path: ./public
+          sync: full
           debug: true
 
 
