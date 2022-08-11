@@ -32,15 +32,17 @@ jobs:
           extended: true
       - name: Build Site
         run: hugo --minify
-      - name: SSH Deploy
-        uses: up9cloud/action-rsync@v1.3
-        env:
-          KEY: ${{secrets.SSH_PRIVATE_KEY}}
-          HOST: ${{secrets.REMOTE_HOST}}
-          USER: ${{secrets.REMOTE_USER}}
-          ARGS: "-avzr --delete --exclude=.htaccess"
-          SOURCE: "public/"
-          TARGET: "/var/www/mechkeys.ru/html"
+      - name: Deploy to Selectel 
+        uses: milanmk/actions-file-deployer@1.11
+        with:
+          remote-protocol: sftp
+          remote-host: sftp.selcdn.ru
+          remote-user: ${{secrets.SELECTEL_USER}}
+          remote-password: ${{secrets.SELECTEL_PASS}}
+          remote-path: mechkeysru
+          local-path: ./public
+          debug: true
+
 
 
 
