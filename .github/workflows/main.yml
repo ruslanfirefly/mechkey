@@ -32,15 +32,20 @@ jobs:
           extended: true
       - name: Build Site
         run: hugo --minify
-      - name: SSH Deploy
-        uses: up9cloud/action-rsync@v1.3
+      - name: Deploy to Selectel 
+        uses: jakejarvis/s3-sync-action@v0.5.1
+        with:
+          args: --delete
         env:
-          KEY: ${{secrets.SSH_PRIVATE_KEY}}
-          HOST: ${{secrets.REMOTE_HOST}}
-          USER: ${{secrets.REMOTE_USER}}
-          ARGS: "-avzr --delete --exclude=.htaccess"
-          SOURCE: "public/"
-          TARGET: "/var/www/mechkeys.ru/html"
+          AWS_S3_ENDPOINT: https://s3.storage.selcloud.ru
+          AWS_ACCESS_KEY_ID: ${{secrets.SELECTEL_USER}}
+          AWS_SECRET_ACCESS_KEY: ${{secrets.SELECTEL_PASS}}
+          AWS_S3_BUCKET: mechkeysru
+          AWS_REGION: ru-1
+          SOURCE_DIR: public
+          
+
+
 
 
 
