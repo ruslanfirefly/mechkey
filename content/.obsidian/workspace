@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "3cd6d337aafd4d23",
+        "id": "c018b65ce677fbd7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "posts/chto-takoe-split-klaviaturi/index.md",
-            "mode": "source"
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -52,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236
+    "width": 364.5
   },
   "right": {
     "id": "b66f594226e032b8",
@@ -95,17 +96,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3cd6d337aafd4d23",
+  "active": "c018b65ce677fbd7",
   "lastOpenFiles": [
+    "posts/chto-takoe-qmk/index.md",
     "posts/chto-takoe-split-klaviaturi/index.md",
+    "gde-kupit-mekhanicheskuyu-klaviaturu.md",
+    "o-proekte.md",
+    "search/_index.md",
     "posts/mekhanicheskaya-klaviatura-anne-pro-2-by-obinslab/index.md",
     "posts/chto-takoe-split-klaviaturi/files/400f5347997e4bbf03015d96cd17d1bc.png",
     "posts/chto-takoe-split-klaviaturi/files/dccbabdb290de8171d9eb93d15192c03.png",
     "posts/chto-takoe-split-klaviaturi/files/08cba2424eae7fc3b475cf360f832383.png",
-    "posts/chto-takoe-split-klaviaturi/files/400f5347997e4bbf03015d96cd17d1bc.png",
-    "posts/chto-takoe-split-klaviaturi/files/a36aa840ae84f77089387eea0e66918a.png",
-    "posts/chto-takoe-split-klaviaturi/files/d4f402088745856eccbcd92694f16138.png",
-    "posts/razmery-i-formaty-klaviatur/index.md",
-    "posts/opto-mekhanicheskaya-klaviatura-gk61-s-aliexpress/index.md"
+    "posts/chto-takoe-split-klaviaturi/files/400f5347997e4bbf03015d96cd17d1bc.png"
   ]
 }

@@ -56,22 +56,22 @@ URL = "plugins/search/search.js"
 # main menu
 [[menu.main]]
 name = "О проекте"
-URL = "o-proekte"
+URL = "o-proekte/"
 weight = 1
 
 [[menu.main]]
 name = "Где купить?"
-URL = "gde-kupit-mekhanicheskuyu-klaviaturu"
+URL = "gde-kupit-mekhanicheskuyu-klaviaturu/"
 weight = 2
 # footer menu
 [[menu.footer]]
 name = "О проекте"
-URL = "o-proekte"
+URL = "o-proekte/"
 weight = 1
 
 [[menu.footer]]
 name = "Где купить?"
-URL = "gde-kupit-mekhanicheskuyu-klaviaturu"
+URL = "gde-kupit-mekhanicheskuyu-klaviaturu/"
 weight = 2
 
 
